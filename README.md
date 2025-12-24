@@ -52,3 +52,6 @@ npm install three lucide-react
 本项目采用了 Single-File Pattern，所有的逻辑、样式与渲染代码均集成在一个文件中，便于快速部署和预览。
 
 修复了此前存在的语法闭合错误（ESBuild Error），确保了异步追踪逻辑的稳定性。
+
+以下是直接访问路径：
+https://gemini.google.com/share/d1f2096400fe

@@ -1,57 +1,57 @@
-粒子圣诞树交互系统 (Particle Christmas Tree System)
+Particle Christmas Tree Interaction System
 
-这是一个基于 Web 技术构建的交互式 3D 视觉项目，结合了现代 3D 渲染与 AI 视觉识别技术。
+This is an interactive 3D visual project built on web technologies, combining modern 3D rendering with AI computer vision.
 
-🌟 主要功能
+🌟 Key Features
 
-3D 粒子渲染：使用 Three.js 生成 12,000 个动态粒子，构建具有发光效果的圣诞树。
+3D Particle Rendering: Built with Three.js using 12,000 dynamic particles to create a luminous, ethereal Christmas tree.
 
-后期特效：应用 UnrealBloom 高级发光滤镜，呈现电影级的视觉质感。
+Post-Processing Effects: Utilizes UnrealBloom filters to achieve a high-end, cinematic glow and visual depth.
 
-AI 手势交互：集成 Google MediaPipe Hands，支持通过摄像头进行空间交互：
+AI Gesture Interaction: Integrated with Google MediaPipe Hands for spatial interaction via webcam:
 
-缩放控制：通过张开/合拢手指（拇指与食指距离）来控制圣诞树的大小。
+Scale Control: Control the tree's size by pinching or spreading your thumb and index finger.
 
-旋转控制：通过移动手掌位置来实时改变 3D 模型的观察角度。
+Rotation Control: Change the 3D viewing angle in real-time by moving your palm position.
 
-响应式 UI：基于 Tailwind CSS 构建的高端、极简交互界面。
+Responsive UI: A premium, minimalist interface built with Tailwind CSS.
 
-🛠️ 技术栈
+🛠️ Tech Stack
 
-React: 框架层
+React: Core UI framework
 
-Three.js: 3D 引擎
+Three.js: 3D engine for rendering and particle physics
 
-MediaPipe Hands: AI 视觉追踪
+MediaPipe Hands: AI-driven hand gesture tracking
 
-Tailwind CSS: 样式管理
+Tailwind CSS: Modern utility-first styling
 
-Lucide React: 矢量图标
+Lucide React: Vector icons
 
-🚀 运行与安装
+🚀 Installation & Usage
 
-安装依赖：
-确保你的项目中已安装以下 npm 包：
+Install Dependencies:
+Ensure the following npm packages are installed in your project:
 
 npm install three lucide-react
 
 
-注：MediaPipe 手势库通过 CDN 动态加载，无需额外安装。
+Note: The MediaPipe library is loaded dynamically via CDN and does not require local installation.
 
-使用组件：
-将 ChristmasTree.jsx 文件放入你的 React 项目中并引用即可。
+Using the Component:
+Place the ChristmasTree.jsx file into your React project and import it into your application.
 
-环境要求：
+Environment Requirements:
 
-支持 WebGL 的现代浏览器。
+A modern browser with WebGL support.
 
-具有摄像头权限（用于手势交互功能）。
+Webcam permissions (required for hand tracking features).
 
-📝 开发者备注
+📝 Developer Notes
 
-本项目采用了 Single-File Pattern，所有的逻辑、样式与渲染代码均集成在一个文件中，便于快速部署和预览。
+This project follows a Single-File Pattern, where all logic, styling, and rendering code are contained within a single file for rapid deployment and previewing.
 
-修复了此前存在的语法闭合错误（ESBuild Error），确保了异步追踪逻辑的稳定性。
+The code includes fixes for previous syntax closure issues (ESBuild errors), ensuring a stable asynchronous tracking pipeline.
 
-以下是直接访问路径：
+This is visit address:
 https://gemini.google.com/share/d1f2096400fe

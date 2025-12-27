@@ -56,4 +56,4 @@ The code includes fixes for previous syntax closure issues (ESBuild errors), ens
 This is visit address:
 https://gemini.google.com/share/d1f2096400fe
 
-https://github.com/Maxmelon326/Christmas-Tree/blob/main/Christmas%20tree.gif
+![image](https://github.com/Maxmelon326/Christmas-Tree/blob/main/Christmas%20tree.gif)
